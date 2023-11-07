@@ -60,7 +60,8 @@
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(2022, 1, 31);
+		//月从0开始，实际为2022.1.31
+		together.setFullYear(2022, 0, 31);
 		together.setHours(8);
 		together.setMinutes(0);
 		together.setSeconds(0);
